@@ -1,0 +1,10 @@
+version: "3.8"
+services:
+  backend:
+    image: superkornDev/backend:1.0.0
+    ports:
+      - "3434:3434"
+  frontend:
+    image: superkornDev/frontend:1.0.0
+    ports:
+      - "8079:8079"

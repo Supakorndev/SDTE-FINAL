@@ -1,0 +1,9 @@
+version: "3.8"
+services:
+  frontend:
+    image: superkornDev/frontend:1.0.0
+    build: ./frontend
+
+  backend:
+    image: superkornDev/backend:1.0.0
+    build: ./backend
